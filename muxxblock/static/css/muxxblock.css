@@ -1,0 +1,7 @@
+/* These rules are mostly a backport of the same rules from lti_consumer/static/css/student.css */
+.xblock-student_view.xblock-student_view-mux iframe.ltiLaunchFrame {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 0px;
+}
