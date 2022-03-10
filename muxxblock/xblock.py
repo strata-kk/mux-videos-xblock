@@ -24,8 +24,8 @@ class MuxXBlock(LtiConsumerXBlock):
         help=LtiConsumerXBlock.lti_id.help,
         default=getattr(
             settings,
-            "LTI_DEFAULT_PASSPORT_ID",
-            getattr(settings, "LTI_DEFAULT_MUX_PASSPORT_ID", ""),
+            "LTI_DEFAULT_MUX_PASSPORT_ID",
+            getattr(settings, "LTI_DEFAULT_PASSPORT_ID", ""),
         ),
         scope=Scope.settings,
     )

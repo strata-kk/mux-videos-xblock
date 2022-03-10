@@ -23,14 +23,14 @@ The following optional settings may be added to your LMS/CMS for a smoother inte
 
 Default: ``""`` (empty string)
 
-Default ID of the LTI passport to use in all LTI applications.
+Default ID of the LTI passport to use in all LTI applications (including this xblock).
 
 ``LTI_DEFAULT_MUX_PASSPORT_ID``
 -------------------------------
 
 Default: ``""`` (empty string)
 
-Default ID of the LTI passport to use in all Mux LTI applications.
+Default ID of the LTI passport to use in all Mux LTI applications. This setting will override ``LTI_DEFAULT_PASSPORT_ID`` in Mux video units.
 
 ``LTI_DEFAULT_PRODUCER_LAUNCH_URL``
 -----------------------------------
